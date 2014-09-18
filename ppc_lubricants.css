@@ -4,6 +4,18 @@
 	border-radius: 0;
 }
 
+#gray_background{
+	background: -webkit-linear-gradient(#C0C0C0, #F8F8F8); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(#C0C0C0, #F8F8F8); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(#C0C0C0, #F8F8F8); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(#C0C0C0, #F8F8F8);
+}
+
+#toll_num{
+	float: right;
+	margin-top: 8%;
+}
+
 
 #tabs a{
 	color: #505050;
@@ -15,6 +27,7 @@
 	background-color: #F8F8F8;
     display: inline;
     border-right: 1px solid #000;
+    border-top: 1px solid #000;
     padding: 0 10px;
     font-family: "Arial";
     font-size: 80%;
@@ -24,54 +37,139 @@ h1{
 	font-family: "Helvetica";
 }
 
+h3{
+	/*margin-left: 10px;*/
+}
+
 #photo1{
+	height: 370px;
+	width: 400px;
+	margin: 25px 10px 25px 10px;
+}
+
+#middle_right{
+	border-right: 1px solid #000;
+	height: 370px;
+	width: 500px;
+	display: inline-block;
+	margin-bottom: 25px;
+	margin-top: 25px;
+	vertical-align: top;
+		background: -webkit-linear-gradient(left, #D0D0D0, #606060); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #D0D0D0, #606060 ); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #D0D0D0, #606060); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #D0D0D0, #606060); /* Standard syntax (must be last) */
 
 }
 
 #black_background{
-	/*background-color: black;*/
+	background-color: black;
+	height: 850px;
+}
+
+#about_ppc{
+	color: white;
 }
 
 
-h2{
-	
+#heading_lubricants{
+	background-color: #FFCC00;
+	display: block;
+	margin-top: 0;
+	height: 35px;
+	padding-left: 10px;
+	padding-top: 5px;
 }
 
+#tiny_image{
+	height: 30px;
+	width: 80px;
+	margin-left: 3%;
+}
+
+#caption{
+	display: inline-block;
+	color: #FFCC33;
+	margin-left: 20px;
+}
 #automotive{
 	border: 1px solid black;
-	background-color: #FFFF00;
+	background-color: #FFCC00;
 	display: inline-block;
-	width: 220px;
+	width: 200px;
+	height: 100%;
 	vertical-align: top;
 	margin-left: 25px;
+	margin-top: 0;
+	font-family: "Helvetica";
+}
+
+#photo2{
+	width: 100%;
+	height: 15%;
+	margin-bottom: 0;
 }
 
 
 #commercial{
 	border: 1px solid black;
-	background-color: #FFFF00;
+	background-color: #FFCC00;
 	display: inline-block;
-	width: 220px;
+	width: 200px;
 	vertical-align: top;
 	margin-left: 25px;
+	font-family: "Helvetica";
+}
+
+#photo3{
+	width: 100%;
+	height: 10%;
 }
 
 #industrial{
 	border: 1px solid black;
-	background-color: #FFFF00;
+	background-color: #FFCC00;
 	display: inline-block;
-	width: 220px;
+	width: 200px;
 	vertical-align: top;
 	margin-left: 25px;
+	font-family: "Helvetica";
+}
+
+#photo4{
+	width: 100%;
+	height: 10%;
 }
 
 #diesel_exhaust_fluid{
 	border: 1px solid black;
-	background-color: #FFFF00;
+	background-color: #FFCC00;
 	display: inline-block;
-	width: 220px;
+	width: 200px;
 	vertical-align: top;
+	margin-right: 25px;
 	margin-left: 25px;
+	font-family: "Helvetica";
 }
 
+#photo5{
+	width: 100%;
+}
+
+.read_more{
+	margin-left: 25%;
+	margin-bottom: 25%;
+
+}
+
+.bottom_heading{
+	margin-left: 10px;
+	font-size: 14px;
+}
+
+.bottom_paragraph{
+	margin-top: 0;
+	background-color: #FFFAF0;
+	height: 200px;
+}
 
